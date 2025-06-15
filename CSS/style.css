@@ -415,7 +415,7 @@ h3 {
 }
 
 #header .header-logo p {
-  font-size: 2.125rem;
+  font-size: 2rem;
 }
 
 #header .name li {
@@ -439,7 +439,7 @@ h3 {
 }
 
 #limited .conditions {
-  height: 550px;
+  height: 600px;
   background-image: none;
   background-color: rgba(183, 163, 143, 0.75);
   border-radius: 30px;
