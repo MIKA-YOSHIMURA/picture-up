@@ -13,7 +13,6 @@ html {
 body {
   color: #523a2c;
   font-family: "Quicksand", Meiryo, Noto Sans, sans-serif;
-  ;
   background-color: #ece4db;
   font-size: 1rem;
   box-sizing: border-box;
@@ -381,4 +380,140 @@ h3 {
   font-size: 0.75rem;
   margin: 0 0 24px;
   text-align: center;
+}
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* スマホ対応 */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+@media screen and (max-width: 768px) {
+
+/* 各セクション */
+.inner-wrapper {
+  max-width: 768px;
+  margin: 0 auto 80px;
+}
+
+/* 各コンテンツタイトル */
+.section-title {
+  box-shadow: 0 0 0 5px #aa7d59;
+  margin: 0 auto 40px;
+}
+
+/* ------------------------------------------ */
+/* ヘッダー */
+/* ------------------------------------------ */
+#header .inner-wrapper {
+  height: 650px;
+  background-position: center bottom;
+}
+
+#header .logo {
+  width: 120px;
+  margin: 0 0 30px;
+}
+
+#header .header-logo p {
+  font-size: 2.125rem;
+}
+
+#header .name li {
+  margin: 0 0 8px;
+}
+
+#header .designer-en {
+  font-size: 1.575rem;
+}
+
+#header .name-en {
+  font-size: 1.875rem;
+}
+
+
+/* ------------------------------------------ */
+/* セクション　限定・キャンペーン */
+/* ------------------------------------------ */
+#limited .section-text {
+  margin: 0 0 30px;
+}
+
+#limited .conditions {
+  height: 550px;
+  background-image: none;
+  background-color: rgba(183, 163, 143, 0.75);
+  border-radius: 30px;
+  border: 3px dashed #fff;
+  box-shadow: 0 0 0 10px rgba(183, 163, 143, 0.75);
+  margin: 16px 8px 50px;
+}
+
+#limited .conditions-list {
+  padding: 27px 16px 0 50px;
+}
+
+#limited .sample-site-title-text {
+  margin: 0 8px 30px;
+}
+
+#limited .sample-list {
+  height: 600px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#limited .sample-site {
+  width: 47%;
+  margin: 0 0 16px;
+}
+
+#limited .sample-site img {
+  height: 145px;
+  margin: 0 0 16px;
+}
+
+#limited .sample-site-text div {
+  font-weight: bold;
+  margin: 0 0 16px;
+}
+
+#limited .sample-site-text li {
+  list-style-type: disc;
+  margin: 0 0 8px 30px;
+}
+
+
+/* ------------------------------------------ */
+/* セクション　制作の流れ */
+/* ------------------------------------------ */
+.steps {
+  margin: 0 24px;
+}
+
+/* ------------------------------------------ */
+/* セクション　ぷろふぃーる */
+/* ------------------------------------------ */
+
+#profile .photo {
+  width: 35%;
+}
+
+#profile .profile-text {
+  width: 60%;
+}
+
+/* ------------------------------------------ */
+/* フッター */
+/* ------------------------------------------ */
+
+#footer .footer-logo {
+  width: 120px;
+  margin: 0 auto 16px;
+}
+
+#footer p {
+  margin: 0 0 16px;
+}
+
+
 }
