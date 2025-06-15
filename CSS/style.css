@@ -473,6 +473,8 @@ h3 {
 }
 
 #limited .sample-site-text div {
+  font-size: 0.875rem;
+  line-height: 1.3;
   font-weight: bold;
   margin: 0 0 16px;
 }
@@ -494,12 +496,19 @@ h3 {
 /* セクション　ぷろふぃーる */
 /* ------------------------------------------ */
 
+#profile .profile-list {
+  display: flex;
+  flex-direction: column;
+}
+
 #profile .photo {
-  width: 35%;
+  width: 50%;
+  margin: 0 auto 30px;
 }
 
 #profile .profile-text {
-  width: 60%;
+  width: 85%;
+  margin: 0 auto;
 }
 
 /* ------------------------------------------ */
